@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+    '@layerzerolabs/onft-evm/=lib/devtools/packages/onft-evm/',
+    '@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/',
+    '@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/protocol',
+]
+auto_detect_solc = true
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
